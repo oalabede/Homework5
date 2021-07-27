@@ -5,8 +5,9 @@ CREATE TABLE IF NOT EXISTS deniro (
     `Year` INT,
     `Score` INT,
     `Title` VARCHAR(42) CHARACTER SET utf8,
+    `Column_4` VARCHAR(10) CHARACTER SET utf8
 );
-INSERT INTO deniro VALUES (Year,Score,Title)
+INSERT INTO deniro VALUES (Year,Score,Title,Column_4)
      (1968,86,' "Greetings"',NULL),
     (1970,17,' "Bloody Mama"',NULL),
     (1970,73,' "Hi',' Mom!"'),
